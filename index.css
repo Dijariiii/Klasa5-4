@@ -1,0 +1,489 @@
+@font-face {
+
+font-family: 'impact';
+src: url(Fonts/impact.ttf);
+font-weight:lighter;
+
+}
+.container::-webkit-scrollbar{
+    width: 9px;
+}
+.container::-webkit-scrollbar-track{
+    background-color: black;
+    border-radius: 15px;
+}
+
+.container::-webkit-scrollbar-thumb{
+    background-color: antiquewhite;
+    border-radius: 15px;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+.li30{
+    float: right;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+li a{
+    display: block;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    width: 60px;
+    border-radius: 30px
+}
+.text1 {
+    background-color: rgb(246, 246, 246);
+    border: outset rgb(255, 255, 255);
+    border-width: 5px;
+    position: absolute;
+    left: 860px;
+    top: 140px;
+    right: 160px;
+    z-index: -1;
+    color: rgb(255, 255, 255);
+    transform: translate(-77 -77);
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+
+
+}
+header {
+font-size: 69px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+body {
+background-color: rgb(246, 246, 246);
+}
+
+img {
+    position: absolute;
+    left: 860px;
+    top: 0px;
+    top: 140px;
+    z-index: -1;
+    border-radius: 15px;
+    border-width: 20    px;
+    border: outset rgb(255, 255, 255)
+ 
+  }
+
+
+.text {
+    background-color: rgb(246, 246, 246);
+    border: outset rgb(255, 255, 255);
+    border-width: 5px;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    right: 73%;
+    color: black;
+    transform: translate(-77 -77);
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+    height: 190px;
+    width: 350px;
+}
+
+
+
+li {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    border-radius: 10px;
+    top: 11px;
+
+
+
+}
+
+.li2 {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 12px;
+
+}
+.li3 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li4 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li5 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li6 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li7 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li8 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li9 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li10 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li11 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li12 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li13 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li14 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li15 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li16 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li17 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li18 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li19 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li20 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li21 {
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+.li22{
+
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 650px;
+
+}
+
+
+p {
+    background-color: gray;
+    border: outset rgb(33, 33, 33);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    top: 535px;
+
+
+}
+
+
+
+a {
+
+color: black;
+
+
+}   
+
+
+.fotot1 {
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    border-radius: 10px;
+    top: 600px;
+
+
+}
+
+.fotot2 {
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    border-radius: 10px;
+    top: 1750px;
+    left: 50px;
+
+
+}
+
+.fotot3 {
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    border-radius: 10px;
+    top: 700px;
+    left: 50px;
+
+
+}
+
+.fotot4 {
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    border-radius: 10px;
+    top: 150px;
+    left: 900px;
+
+
+}
+
+.fotot5 {
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    border-radius: 10px;
+    top: 1200px;
+
+
+}
+
